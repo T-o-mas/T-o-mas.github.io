@@ -10,11 +10,11 @@
   <body id="container">
     <div class="top_bar"></div>
     <nav id="nav">
-      <a href="index.html">About</a>
+      <a id="menu" href="index.html">About</a>
       <a id="selected">Skills</a>
-      <a href="education.html">Education</a>
-      <a href="experinece.html">Experience</a>
-      <a href="interests.html">Interests</a>
+      <a id="menu" href="education.html">Education</a>
+      <a id="menu" href="experinece.html">Experience</a>
+      <a id="menu" href="interests.html">Interests</a>
     </nav>
 
     <div id="content">
@@ -32,28 +32,22 @@
           <p id="Rh1">Skills</p>
         </header>
         <br />
-        <table id="Rtable">
-          <tr>
-            <td><label for="Golang">Golang</label></td>
-            <td><progress id="Golang" value="100" max="100">100%</progress></td>
-          </tr>
-          <tr>
-            <td><label for="Terraform">Terraform</label></td>
-            <td>
-              <progress id="Terraform" value="90" max="100">90%</progress>
-            </td>
-          </tr>
-          <tr>
-            <td><label for="JavaScript">JavaScript</label></td>
-            <td>
-              <progress id="JavaScript" value="70" max="100">70%</progress>
-            </td>
-          </tr>
-          <tr>
-            <td><label for="HTML">Golang</label></td>
-            <td><progress id="HTML" value="100" max="100">100%</progress></td>
-          </tr>
-        </table>
+        <b><div id="label">Golang</div></b>
+        <div class="progress">
+          <div class="fill1" style="width: 100%"></div>
+        </div>
+        <b><div id="label">Terraform</div></b>
+        <div class="progress">
+          <div class="fill2" style="width: 90%"></div>
+        </div>
+        <b><div id="label">JavaScript</div></b>
+        <div class="progress">
+          <div class="fill3" style="width: 70%"></div>
+        </div>
+        <b><div id="label">HTML</div></b>
+        <div class="progress">
+          <div class="fill4" style="width: 65%"></div>
+        </div>
       </div>
     </div>
     <footer>&copy Tomas Kmet 2023</footer>

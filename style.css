@@ -112,7 +112,7 @@ img {
 
 }
 
-a {
+#menu {
   margin-block: 5px;
   margin-inline: 30px;
   padding: 10px;
@@ -124,6 +124,11 @@ a {
 
 #selected {
     color: purple;
+    margin-block: 5px;
+    margin-inline: 30px;
+    padding: 10px;
+    justify-content: center;
+    text-decoration: none;
 }
 
 #LeftSidebox {
@@ -158,10 +163,10 @@ footer {
     /*min-height: ;*/
 }
 
-#list {
+.list {
     display: flex;
     justify-content: start;
-    margin-left: 2.5%;
+    margin-left: 7.5%;
     margin-bottom: 20px;
 }
 
@@ -174,6 +179,8 @@ footer {
 }
 #purplelink {
     color: purple;
+    text-decoration: none;
+
 }
 
 div.top_bar
@@ -182,6 +189,78 @@ div.top_bar
     background-color: purple;
     margin-top: 10px;
 }
+
+.progress {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 15px;
+    width: 80%;
+    background-color: rgb(234, 232, 232);
+    border-radius: 25px;
+    margin-left: 7.5%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+.fill1 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: left;
+    height: 15px;
+    background-color: rgb(15, 172, 225);
+    border-bottom-left-radius: 25px;
+    border-radius: 25px;
+}
+.fill2 {
+    display: flex;
+    flex: 1;
+    width: 90%;
+    justify-content: left;
+    height: 15px;
+    background-color: rgb(15, 172, 225);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-right: 10%;
+
+}
+.fill3 {
+    display: flex;
+    flex: 1;
+    width: 70%;
+    justify-content: left;
+    height: 15px;
+    background-color: rgb(15, 172, 225);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-right: 25%;
+
+}
+.fill4 {
+    display: flex;
+    width: 65%;
+    flex: 1;
+    justify-content: flex-start;
+    height: 15px;
+    background-color: rgb(15, 172, 225);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-right: 35%;
+}
+
+#label {
+    margin-left: 7.5%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+
+.progress > span {
+    background-color: blue;
+    justify-content: start;
+
+}
+
 
 @media only screen and (max-width: 800px) {
     #nav {
@@ -197,7 +276,7 @@ div.top_bar
     
     }
     
-    a {
+    #menu {
       margin-block: 5px;
       margin-inline: 30px;
       padding: 10px;
@@ -209,8 +288,8 @@ div.top_bar
     #content {
         display: flex;
         flex-direction: column;
+        min-height: 1000px;
         background-color: white;
-        height: 85vh;
         padding-bottom: 30px;
         padding-top: 30px;
         /*min-height: ;*/
@@ -229,4 +308,5 @@ div.top_bar
         padding-right: 80px;
     
     }
+
 }

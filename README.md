@@ -48,4 +48,4 @@ In this assignment, you will add styling to the webpages you created in the HTML
 - Use Flexbox for the layout
 - Feel free to make minor changes, such as changing colors and font-sizes
 - Feel free to add new elements, data, etc.
-- You may need to change some of the HTML elements you used in the HTML assignment. One example is the navigation menu. You probably choose a paragraph to do that. For this assignment, it makes more sense to use `<nav>`, `<ul>`, and `<li>` for the navigation (hint: I created a similar one in the class). So, feel free to use new HTML elements if they make more sense now# T-o-mas.github.io
+- You may need to change some of the HTML elements you used in the HTML assignment. One example is the navigation menu. You probably choose a paragraph to do that. For this assignment, it makes more sense to use `<nav>`, `<ul>`, and `<li>` for the navigation (hint: I created a similar one in the class). So, feel free to use new HTML elements if they make more sense now
